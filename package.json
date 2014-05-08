@@ -1,0 +1,12 @@
+{
+  "name" : "shoelace-ui-colors",
+  "version" : "0.0.1",
+  "description" : "Color variables",
+  "repository" : "https://github.com/shoelace-ui/colors.git",
+  "keywords" : ["shoelace","colors"],
+  "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license" : "MIT",
+  "dependencies": {
+    "shoelace-ui-gray": "git+https://github.com/shoelace-ui/gray.git"
+  }
+}
