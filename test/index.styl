@@ -10,13 +10,16 @@
 
 [class*=colors--]
   padding 10px
+  margin-right 10px
 
 colors--test(c)
   .colors--{c}
-    c = lookup('colors--' + c)
-    background c
-    if dark(c)
+    l = lookup('colors--' + c)
+    background l
+    if dark(l)
       color white
+    &:after
+      content c + ' ' + l
 
 colors--test('aliceblue')
 colors--test('antiquewhite')
